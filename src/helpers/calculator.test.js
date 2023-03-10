@@ -90,8 +90,8 @@ describe('groupByMonth', () => {
         month: '2023-01',
         bonus: 0,
         transactions: [
-          { date: '2023-01-01', bonus: 0 },
           { date: '2023-01-02', bonus: 0 },
+          { date: '2023-01-01', bonus: 0 },
         ],
       },
     ]);
@@ -104,17 +104,17 @@ describe('groupByMonth', () => {
     ]);
     expect(result).toEqual([
       {
-        month: '2023-01',
-        bonus: 0,
-        transactions: [
-          { date: '2023-01-01', bonus: 0 },
-        ],
-      },
-      {
         month: '2023-02',
         bonus: 0,
         transactions: [
           { date: '2023-02-02', bonus: 0 },
+        ],
+      },
+      {
+        month: '2023-01',
+        bonus: 0,
+        transactions: [
+          { date: '2023-01-01', bonus: 0 },
         ],
       },
     ]);
@@ -128,18 +128,18 @@ describe('groupByMonth', () => {
     ]);
     expect(result).toEqual([
       {
-        month: '2023-01',
-        bonus: 25,
-        transactions: [
-          { date: '2023-01-01', bonus: 10 },
-          { date: '2023-01-02', bonus: 15 },
-        ],
-      },
-      {
         month: '2023-02',
         bonus: 20,
         transactions: [
           { date: '2023-02-02', bonus: 20 },
+        ],
+      },
+      {
+        month: '2023-01',
+        bonus: 25,
+        transactions: [
+          { date: '2023-01-02', bonus: 15 },
+          { date: '2023-01-01', bonus: 10 },
         ],
       },
     ]);
