@@ -1,0 +1,36 @@
+.transaction-month {
+  > header {
+    cursor: pointer;
+
+    padding: .5rem;
+    border-top: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+
+    &::before {
+      content:'⯈';
+      padding-right: .5rem;
+    }
+
+    .month,
+    .bonus {
+      flex: {
+        basis: 0;
+        grow: 1;
+      }
+    }
+  }
+
+  &.expanded {
+    > header {
+      &::before {
+        content:'⯆ ';
+      }
+    }
+  }
+
+  > ul {
+    list-style: none;
+    padding-left: 2rem;
+  }
+}

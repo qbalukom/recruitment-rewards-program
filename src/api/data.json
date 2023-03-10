@@ -1,0 +1,44 @@
+[
+	{
+		"id": 1,
+		"date": "2023-03-08",
+		"amount": 153,
+		"user": "client1"
+	},
+	{
+		"id": 2,
+		"date": "2023-03-06",
+		"amount": 58,
+		"user": "client1"
+	},
+	{
+		"id": 3,
+		"date": "2023-02-01",
+		"amount": 131,
+		"user": "client1"
+	},
+	{
+		"id": 4,
+		"date": "2023-02-01",
+		"amount": 12,
+		"user": "client1"
+	},
+	{
+		"id": 5,
+		"date": "2023-02-01",
+		"amount": 12,
+		"user": "client2"
+	},
+	{
+		"id": 6,
+		"date": "2023-03-01",
+		"amount": 16,
+		"user": "client2"
+	},
+	{
+		"id": 2,
+		"date": "2023-03-07",
+		"amount": 52,
+		"user": "client1"
+	}
+]

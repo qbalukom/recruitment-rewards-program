@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #eee;
+}
+
+body {
+  color: #333;
+  background-color: #fff;
+  width: 50vw;
+  min-height: 100vh;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+a {
+  color: #060;
+  &:active {
+    color: #090;
+  }
+}
+
+.transactions-header {
+  padding: 1rem;
+}
+
+#root > h2 {
+  padding: 1rem;
+}

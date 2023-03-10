@@ -1,0 +1,9 @@
+.transaction-entry {
+  display: flex;
+  .date, .amount, .bonus {
+    flex: {
+      basis: 0;
+      grow: 1;
+    }
+  }
+}
